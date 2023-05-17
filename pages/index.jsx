@@ -127,7 +127,7 @@ function HomePage() {
           <feTurbulence
             type="turbulence"
             baseFrequency="0.0023 0.0022"
-            numOctaves="2"
+            numOctaves="4"
             seed="3"
             stitchTiles="stitch"
             x="0%"
@@ -147,7 +147,7 @@ function HomePage() {
               attributeName="values"
               from="0"
               to="360"
-              dur="20s"
+              dur="10s"
               repeatCount="indefinite"
             />
           </feColorMatrix>
@@ -156,9 +156,9 @@ function HomePage() {
             in="cloud"
             result="wispy"
             type="matrix"
-            values="4 0 0 0 -1
-                    4 0 0 0 -1
-                    4 0 0 0 -1
+            values="4 0 0 0 0
+                    4 0 0 0 0
+                    4 0 0 0 0
                     1 0 0 0 0   
                     "
           />
