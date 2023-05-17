@@ -22,7 +22,7 @@ function HomePage() {
   const { color: backgroundColor, show: backgroundShow } = useControls(
     "Background",
     {
-      color: { h: 0, s: 65, l: 58 },
+      color: { h: 0, s: 0, l: 100 },
       show: true,
     }
   );
